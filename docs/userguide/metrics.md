@@ -106,6 +106,11 @@ The application metrics pane is comprised of four graphs:
     ![Error percentage](/img/docs/error-percentage-v0.10.2.png)
 - **Key Operations**: this list helps you find the slow operations of your application. You can select a column heading to sort the list by the values in that column. Select the column heading again to reverse the sort order or to cancel sorting.
     ![Key operations](/img/docs/key-operations-v0.10.2.png)
+- **Apdex**: [Apdex](https://www.apdex.org/) (Application Performance Index) is an open standard that defines a method to report, benchmark, and rate application response time. An Apdex score helps you understand and identify the impact on application performance over time.
+The Apdex score indicates the end users' level of satisfaction from 0 (least satisfied) to 1 (most satisfied). Threshold is an aribtary value which is set to `0.5` by default and can be changed according to the requirements.
+    ![Key operations](/img/docs/apdex-score.png)
+  You can change the Threshold value by going to Settings on top-right corner of your dashboard.
+    ![Key operations](/img/docs/apdex-score-threshold.png)
 
 ### External Calls in SigNoz
 
